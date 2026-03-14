@@ -93,6 +93,7 @@ aws-s3-static-gaming-website
 # ⚙️ AWS Deployment Steps
 
 ## 1️⃣ Create S3 Bucket
+[S3 Bucket creation](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/01-aws_console.jpg)
 
 
 # 📚 What I Learned
