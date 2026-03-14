@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Gaming Dashboard</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial;
+    background:#0f172a;
+    color:white;
+}
+
+/* Sidebar */
+
+.sidebar{
+    width:220px;
+    height:100vh;
+    background:#020617;
+    position:fixed;
+    padding-top:20px;
+}
+
+.sidebar h2{
+    text-align:center;
+    color:#38bdf8;
+}
+
+.sidebar a{
+    display:block;
+    padding:15px;
+    text-decoration:none;
+    color:white;
+}
+
+.sidebar a:hover{
+    background:#1e293b;
+}
+
+/* Main */
+
+.main{
+    margin-left:220px;
+    padding:20px;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.search{
+    padding:8px;
+    border-radius:5px;
+    border:none;
+}
+
+/* Game cards */
+
+.games{
+    margin-top:20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.play-btn{
+    margin-top:10px;
+    padding:10px 20px;
+    background:#22c55e;
+    border:none;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.play-btn:hover{
+    background:#16a34a;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="sidebar">
+<h2>🎮 GameHub</h2>
+<a href="#">Dashboard</a>
+<a href="#">My Games</a>
+<a href="#">Trending</a>
+<a href="#">Friends</a>
+<a href="#">Settings</a>
+</div>
+
+<div class="main">
+
+<div class="header">
+<h1>Gaming Dashboard</h1>
+<input class="search" placeholder="Search Games">
+</div>
+
+<div class="games">
+
+<div class="card">
+<img src="Racing_Thunder.jpg" alt="Racing_Thunder">
+<h3>Racing Thunder</h3>
+<button class="play-btn">Play</button>
+</div>
+
+<div class="card">
+<img src="Battle.jpg" alt="Battle_Thunder">
+<h3>Battle Arena</h3>
+<button class="play-btn">Play</button>
+</div>
+
+<div class="card">
+<img src="zombie.jpeg" alt="zombie Attack">
+<h3>Zombie Attack</h3>
+<button class="play-btn">Play</button>
+</div>
+
+<div class="card">
+<img src="spaceshooter.jpg" alt="spaceshooter">
+<h3>Space Shooter</h3>
+<button class="play-btn">Play</button>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
