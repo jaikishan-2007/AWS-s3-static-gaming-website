@@ -91,9 +91,21 @@ aws-s3-static-gaming-website
 ---
 
 # ⚙️ AWS Deployment Steps
-
-## 1️⃣ Create S3 Bucket
-
+1. Open AWS Console- [aws_Console](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/01-aws_console.jpg)
+2. Click on region- [region](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/02-Region.jpg)
+3. Select the region Which is near to you- [Select_Region](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/03-Select_nearest_region.jpg)
+4. In Search bar search for **S3 Bucket**- [Search for S3](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/04-Search_for_S3.png)
+5. CLick on S3 Bucket- [Select S3](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/05-Select-S3.png)
+6. Create new bucket- [Create bucket](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/05-Select-S3.png)
+7. Enter Bucket name **Note:** Bucket name should be globally unique- [Name](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/07-Enter_Bucket_Name.png)
+8. Scroll down and uncheck the **Block all public access** and check the ** Disclamir shown by aws**- [Access](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/08-Public_Access.png)
+9. Click on Create Bucket- [Confirm bucket creation](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/09-Create_Bucket_confirm.png)
+10. Open your bucket- [Select Bucket](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/10-Select_Bucket.png)
+11. Select Upload- [Upload](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/11-Upload.png)
+12. Add files to your bucket **Note:** If an HTML file is using images than you need to upload the images that are used in HTML- [Add files](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/12-Add_files.png)
+13. Now click upload to proceed further- [upload selected files](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/13-Upload_Selected_files.png)
+14. Close the Upload Status Interface -[Close](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/14-Close.png)
+15. Go to properties -[properties](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/15-Properties.png)
 
 # 📚 What I Learned
 
