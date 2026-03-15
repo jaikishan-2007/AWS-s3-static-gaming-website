@@ -10,7 +10,7 @@ This project demonstrates how to deploy a **static web application** using cloud
 
 This project uses **Amazon S3 static website hosting** to serve HTML files directly to users.
 
-## Architecture Diagram
+## Architecture Diagram Flow
 
 ```
         User
@@ -48,9 +48,9 @@ Step-by-step process when a user opens the website:
 index.html
 ```
 
-5️⃣ S3 returns the file to the browser
+5. S3 returns the file to the browser
 
-6️⃣ Browser renders the website UI
+6. Browser renders the website UI
 
 ---
 
@@ -61,32 +61,7 @@ index.html
 | HTML        | Website structure     |
 | CSS         | Styling               |
 | AWS S3      | Static file hosting   |
-| GitHub      | Version control       |
 | Screenshots | Project documentation |
-
----
-
-# 📂 Project Structure
-
-```
-aws-s3-static-gaming-website
-│
-├── index.html
-├── error.html
-├── Battle.jpg
-├── Racing_Thunder.jpg
-├── zombie.jpeg
-├── spaceshooter.jpg
-│
-├── screenshots
-│   ├── 01-aws-console.png
-│   ├── 02-open-s3.png
-│   ├── 03-create-bucket.png
-│   ├── ...
-│   └── 27-error-page-working.png
-│
-└── README.md
-```
 
 ---
 
@@ -106,6 +81,21 @@ aws-s3-static-gaming-website
 13. Now click upload to proceed further- [upload selected files](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/13-Upload_Selected_files.png)
 14. Close the Upload Status Interface -[Close](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/14-Close.png)
 15. Go to properties -[properties](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/15-Properties.png)
+16. Scroll down to find **Static website hosting** and click edit -[Edit](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/16-Click_Edit_At_Static_Website_Hosting.png)
+17. Enable website hosting and give the exact same name what you have used in document, like if you use index.html than give the name as index.html only -[Enable document and specify home page](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/17-Enable_StaticWebsite-Index_and_Error_Documents.png)
+18. Save the changes -[Save](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/18-Savechanges.png)
+19. open bucket end point link in private window -[Endpoint](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/19-S3_Endpoint_link.png)
+20. If it shows security issue than **continue to site** -[continue](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/20-Continue_to_Site.png)
+21. The access denied displayed because still we didn't grant the public access of the link -[access denied](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/21-Access_Denied_Error.png)
+22. Get back to aws console in your bucket click on Permissions tab -[Permission](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/22-Back_to_AWS_Permissions.png)
+23. Scroll down and edit the bucket policy -[Edit_policy](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/23-Edit_Bucket_Policy.png)
+24. Use the given bucket policy and save the changes -[**Bucket_policy**](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Bucket_Policy.txt) , confirm policy and save -[save changes](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/24_Enter_the_Bucket_Policy.png)
+25. Successfully edited bucket policy -[saved](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/25-Bucket_Policy_Saved.jpg)
+26. Get back to your web page and refresh the page -[refresh](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/26-Refresh_URL.png)
+27. You can see your dashboard -[dashboard](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/27-Dashboard_View.jpg)
+28. Make small changes (Changes can be random) in the URL for custom error page test -[URL](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/28-Small_changes_to_URL_ERROR_PAGE_Check.png)
+29. now you can see projection of custom error page -[Error_page](https://github.com/jaikishan-2007/AWS-s3-static-gaming-website/blob/main/Demonstration_Via_Screenshots/29-Error_Page.jpg)
+30. This how we are going to host our website.
 
 # 📚 What I Learned
 
